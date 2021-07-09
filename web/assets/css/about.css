@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 29, 2021, 3:28:52 PM
+    Author     : Mr Duc Anh
+*/
+
+:root {
+  --text-color: #ffffff;
+  --main-background-color: #0c0f38;
+  --second-text-color: #fdd430;
+  --blue-color: #0984e3;
+  --text-color-gray: #8c959e;
+}
+
+/*STYLE HEADER*/
+/*------------------------------------------------------------------*/
+.header {
+  padding: 20rem 30rem 0;
+}
+
+.header-title {
+  font-size: 50px;
+  line-height: 61px;
+  font-weight: 700;
+  color: var(--blue-color);
+}
+
+.header-description {
+  width: 500px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.information {
+  padding: 10rem 30rem 0;
+  display: flex;
+}
+.left {
+  width: 553px;
+  margin-right: 4rem;
+}
+.right {
+  width: calc(100% - 553px - 4rem);
+}
+.information-list__item {
+  padding-bottom: 5rem;
+}
+.information-item__title {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+  color: var(--blue-color);
+  padding-bottom: 5rem;
+}
+
+.information-list__item a {
+  display: inline-block;
+  padding: 1.2rem 4rem;
+  background-color: var(--blue-color);
+  color: white;
+  border-radius: 5rem;
+  margin-left: 6rem;
+}
+
+.information-list__item a:hover {
+  background-color: #0a78cc;
+}
+/*STYLE HEADER*/
+/*------------------------------------------------------------------*/
+.customer {
+  padding: 10rem 30rem 0;
+}
+
+.customer-title {
+  font-size: 50px;
+  line-height: 61px;
+  font-weight: 700;
+  color: var(--blue-color);
+  text-align: center;
+}
+.customer-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+/*STYLE FORM CONTACT*/
+/*------------------------------------------------------------------*/
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 580px;
+  margin: 0 auto;
+  padding: 10rem;
+  box-shadow: 0 5px 20px #000010b0;
+  border-radius: 2rem;
+  border: 1px solid white;
+  margin-bottom: 5rem;
+}
+
+.contact-title {
+  font-size: 50px;
+  line-height: 61px;
+  font-weight: 700;
+  color: var(--blue-color);
+  text-align: center;
+}
+
+.contact-row {
+  width: 100%;
+  margin-top: 2rem;
+  font-style: 2rem;
+  color: var(--text-color-gray);
+}
+
+.contact-row span{
+    color: red;
+}
+
+.contact-row input,
+.contact-row textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 18px;
+  margin-top: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+}
+
+.contact-button{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+button[type="submit"]{
+    width: 18rem;
+    height: 5rem;
+    padding: 0 4rem;
+    background-color: var(--blue-color);    
+    border: 1px solid var(--blue-color);
+    color: var(--text-color);
+    font-size: 18px;
+    border-radius: 4rem;
+    cursor: pointer;
+}
+
+

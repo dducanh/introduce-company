@@ -1,0 +1,316 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 29, 2021, 3:34:53 PM
+    Author     : Mr Duc Anh
+*/
+
+.right {
+    width: 420px;
+    height: auto;
+    padding: 10px;
+    margin-top: 66px;
+    box-sizing: content-box;
+    margin-left: -10px;
+}
+
+.newst {
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    margin: 10px;
+}
+
+.contentNews h4 {
+    margin: 2px;
+}
+
+.contentNews h4 a {
+    margin-top: 100px;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0984e3;
+}
+
+div.contentNews h4 a:hover {
+    color: blue;
+}
+
+.contentNews img {
+    border-radius: 10%;
+}
+
+.titleNews {
+    color: #0984e3;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+    padding-top: 10px
+}
+
+.titleNews h2 {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.shortDesContentNews {
+    display: block;
+    font-weight: 30px;
+    font-size: 16.5px;
+    margin: 5px;
+}
+
+.shortDesContentNews a {
+    text-decoration: none;
+}
+
+.shortDesContentNews a :hover {
+    color: blue;
+}
+
+.searchBox {
+    border: dashed 0px;
+    height: 30px;
+}
+
+.searchButton {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0984e3;
+    height: 30px;
+    width: 40px;
+}
+
+.lastArticles {
+    padding-bottom: 20px;
+}
+
+.lastArticles a {
+    color: #0984e3;
+    font-size: 15px;
+    display: flex;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.lastArticles :hover {
+    color: blue;
+}
+
+.imageContenNews {
+    border-radius: 21px;
+    box-shadow: 0px 3px 6px;
+    width: 350px;
+    height: 500px;
+    margin: 15px;
+}
+
+.imageContenNews img {
+    margin: 5px;
+    width: 330px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #0984e3;
+    border-right-color: #0984e3;
+    border-bottom-color: #0984e3;
+    border-left-color: #0984e3;
+}
+
+.imageContenNews h4 {
+    margin: 5px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+
+a:hover {
+    color: blue;
+}
+
+.head {
+    /* width: 100%; */
+    height: 550px;
+    margin: 0;
+    background-color: #0c0f38;
+    display: flex;
+}
+
+.headContent {
+    width: 150px;
+    display: inline-block;
+    align-items: center;
+    text-align: left;
+    margin: 50px;
+    margin: left 60px;
+    padding-top: 200px;
+}
+
+.headText {
+    width: 800px;
+    display: inline-block;
+    color: #b9d5e8;
+    text-align: left;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.headText h1 {
+    text-align: center;
+}
+
+.backgroundimage {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 550px;
+}
+
+.backgroundimage img {
+    width: 800px;
+    height: 400px;
+}
+
+.bot {
+    background-color: aliceblue;
+    width: auto;
+    height: auto;
+    display: flex;
+    padding-bottom: 8rem;
+}
+
+
+/* Right */
+
+.content {
+    background-color: aliceblue;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 280px;
+}
+
+.news h2 {
+    font-size: 28px;
+    margin-left: 10px;
+    color: #0984e3;
+    padding-top: 10px;
+}
+
+.imageNews {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.imageNews img {
+    width: 780px;
+    height: 500px;
+    margin: 5px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    border-radius: 10%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #0984e3;
+    border-right-color: #0984e3;
+    border-bottom-color: #0984e3;
+    border-left-color: #0984e3;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 18px;
+    color: #0984e3;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 600px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+
+.title h3 a {
+    color: #0984e3;
+    text-decoration: none;
+}
+
+div.title a:hover {
+    color: blue;
+}
+
+.description {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.desciption a {
+    color: #0984e3;
+    text-decoration: none;
+}
+
+.detailDesciption {
+    display: inline-block;
+}
+
+.image img {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #0984e3;
+    border-right-color: #0984e3;
+    border-bottom-color: #0984e3;
+    border-left-color: #0984e3;
+    width: 350px;
+    height: 290px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.NewsContent {
+    display: inline-block;
+}
+
+.NewsContent p {
+    font-size: 20px;
+}

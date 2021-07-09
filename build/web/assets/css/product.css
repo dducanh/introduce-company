@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 29, 2021, 3:22:42 PM
+    Author     : Mr Duc Anh
+*/
+
+body{
+    width: 100%;
+}
+.product-list{
+    margin-top: 10rem;
+}
+
+.item-header{
+    text-align: center;
+}
+
+.item-header__title{
+    font-size: 6rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    color: #EF534F;
+}
+.item-header__desc{
+    font-size: 4.2rem;
+    margin-top: 2rem;
+}
+.item-content{
+    padding: 2rem 25rem;
+    display: flex;
+    margin-left: -2rem;
+}
+.item-content__text{
+    margin-left: 2rem;
+    width: calc(33.33% - 2rem);
+    padding-left: 5rem;
+    margin: auto 0;
+}
+
+.item-content__title{
+    margin: 2rem 0;
+    font-size: 3.5rem;
+}
+
+.item-content__desc{
+    line-height: 3rem;
+}
+
+.item-content__desc >  span{
+    font-weight: bold;
+}
+
+.item-content__image{
+    margin-left: 2rem;
+    width: calc(66.66% - 2rem);
+    height: 35rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+.item-feature{
+    padding: 2rem 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item-feature__element{
+    margin-bottom: 5rem;
+    margin-left: 12rem;
+    width: calc(50% - 12rem);
+    display: flex;
+}
+
+.element-right{
+    margin: auto 2rem;
+}
+
+.element-left{
+    width: 64px;
+    height: 64px;
+}
+
+.element-right__title{
+    color: #EF534F;
+    font-weight: 400;
+    font-size: 2.4rem;
+    padding: 1rem 0;
+}
+
+.element-right__desc{
+    font-size: 1.4rem;
+    color: #54565B;
+}
+
+
+.btn-class{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.button__learn-more{
+    display: inline-block;
+    text-align: center;
+    color: #EF534F;
+    padding: 13px 24px;
+    border: 1px solid #EF534F;
+    transition: all 0.25s linear;
+}
+.button__learn-more:hover{
+    background-color: #EF534F;
+    color: white;
+}

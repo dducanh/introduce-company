@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 28, 2021, 7:33:36 PM
+    Author     : ADMIN
+*/
+.right {
+    width: 420px;
+    height: auto;
+    padding: 10px;
+    margin-top: 66px;
+    box-sizing: content-box;
+    margin-left: -10px;
+}
+
+.newst {
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    margin: 10px;
+}
+
+.contentNews h4 {
+    margin: 2px;
+}
+
+.contentNews h4 a {
+    margin-top: 100px;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0984e3;
+}
+
+div.contentNews h4 a:hover {
+    color: blue;
+}
+
+.contentNews img {
+    border-radius: 10%;
+}
+
+.titleNews {
+    color: #0984e3;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+    padding-top: 10px
+}
+
+.titleNews h2 {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.shortDesContentNews {
+    display: block;
+    font-weight: 30px;
+    font-size: 16.5px;
+    margin: 5px;
+}
+
+.shortDesContentNews a {
+    text-decoration: none;
+}
+
+.shortDesContentNews a :hover {
+    color: blue;
+}
+
+.searchBox {
+    border: dashed 0px;
+    height: 30px;
+}
+
+.searchButton {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0984e3;
+    height: 30px;
+    width: 40px;
+}
+
+.lastArticles {
+    padding-bottom: 20px;
+}
+
+.lastArticles a {
+    color: #0984e3;
+    font-size: 15px;
+    display: flex;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.lastArticles :hover {
+    color: blue;
+}
+
+.imageContenNews {
+    border-radius: 21px;
+    box-shadow: 0px 3px 6px;
+    width: 350px;
+    height: 500px;
+    margin: 15px;
+}
+
+.imageContenNews img {
+    margin: 5px;
+    width: 330px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #0984e3;
+    border-right-color: #0984e3;
+    border-bottom-color: #0984e3;
+    border-left-color: #0984e3;
+}
+
+.imageContenNews h4 {
+    margin: 5px;
+    margin-top: 0px;
+    padding-top: 10px;
+}

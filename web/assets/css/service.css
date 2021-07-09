@@ -1,0 +1,164 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 29, 2021, 3:41:11 PM
+    Author     : Mr Duc Anh
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.head {
+    /* width: 100%; */
+    height: 550px;
+    margin: 0;
+    background-color: #0c0f38;
+    display: flex;
+    margin-top: 80px;
+}
+
+.headContent {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 50px;
+    margin: left 60px;
+}
+
+.headText {
+    display: block;
+    color: #b9d5e8;
+    text-align: center;
+}
+
+.headText h1 {
+    font-size: 250%;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.headText p {
+    text-align: center;
+}
+
+.backgroundimage {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundimage img {
+    width: 1300px;
+    height: 500px;
+}
+
+.bot {
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: 80px;
+    padding-bottom: 8rem;
+}
+
+.shortDes {
+    display: flex;
+}
+
+.textShortDes {
+     border-radius: 21px;
+    box-shadow: 0px 3px 6px;
+    max-width: 75ch;
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.textShortDes p {
+    text-overflow: Ellipsis; /* will make [...] at the end */
+    margin: 8px 0;
+    font-size: 15px;
+    line-height: 16px;
+       white-space: nowrap; /* paragraph to one line */
+    overflow:hidden; /* older browsers */
+}
+
+.textShortDes h2 {
+    font-size: 30px;
+    color: #0984e3;
+    font-weight: bold;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.topimage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deliverables {
+    display: block;
+    position: relative;
+    width: 600px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.deliverables p {
+    margin: 8px 0;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.deliverables h2 {
+    font-size: 30px;
+    color: #0984e3;
+    font-weight: bold;
+    width: auto;
+}
+
+.content {
+    background-color: aliceblue;
+}
+
+.service {
+    display: flex;
+    background-color: aliceblue;
+    width: auto;
+}
+
+.image img {
+    width: 300px;
+
+    margin: 5px;
+    padding-bottom: 5px;
+    border-radius: 10%;
+}
+
+.title {
+    font-size: 18px;
+    color: #0984e3;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 600px;
+    margin-left: 60px;
+    box-sizing: border-box;
+}
+
+.description {
+    display: inline-block;
+}

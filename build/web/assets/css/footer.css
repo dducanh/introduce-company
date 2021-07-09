@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 29, 2021, 3:13:25 PM
+    Author     : Mr Duc Anh
+*/
+
+/*CODING STYLE FOOTER*/
+/*--------------------------------------------------------------------*/
+
+:root {
+  --text-color: #ffffff;
+  --main-background-color: #0c0f38;
+  --second-text-color: #fdd430;
+  --blue-color: #0984e3;
+  --text-color-gray: #8C959E;
+}
+
+.footer{
+  width: 100%;
+  margin-bottom: 2rem;
+  border-top: 1px solid var(--text-color-gray);
+}
+
+.footer-list{
+  padding: 1rem 22rem;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -3rem;
+}
+
+.footer-item{
+  margin-left: 3rem;
+  width: calc(33.33% - 3rem);
+}
+
+.footer-item__title{
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #545454;
+  font-size: 1.8rem;
+}
+
+.footer-item__choice{
+  margin-bottom: 1rem;
+}
+
+.footer-item__choice a , .icon-right{
+  color: var(--text-color-gray);
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+
+.footer-item__choice a:hover{
+  color: rgb(216, 132, 37);
+}
+
+.icon-right:hover{
+  color: rgb(216, 132, 37);
+
+}
+
+.address{
+  line-height: 3rem;
+  font-size: 1.4rem;
+}
+
+.address span{
+  font-weight: bold;
+}
+.icon_link{
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.9rem;
+  font-size: 1.8rem;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+
+.icon_link:first-child{
+  background-color: #337BB8;
+}
+
+.icon_link:nth-child(2){
+  background-color: #4C65A5;
+}
+
+.icon_link:last-child{
+  background-color: #4C65A5;
+}
+
+.icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.copyright{
+  margin-top: -6rem;  
+  margin-left: 100rem;
+  margin-bottom: 3rem;
+}
